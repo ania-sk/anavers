@@ -1,0 +1,14 @@
+{
+  "Navbar": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Hi, I'm Ania",
+    "subtitle": "Full-Stack Developer bridging the gap between PHP and modern Frontend.",
+    "cta_work": "See my work",
+    "cta_cv": "Download CV"
+  }
+}

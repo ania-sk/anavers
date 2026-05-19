@@ -1,0 +1,14 @@
+{
+  "Navbar": {
+    "about": "O mnie",
+    "skills": "Umiejętności",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "title": "Cześć, jestem Ania",
+    "subtitle": "Full-Stack Developer, która łączy świat PHP z nowoczesnym Frontendem.",
+    "cta_work": "Zobacz projekty",
+    "cta_cv": "Pobierz CV"
+  }
+}
