@@ -5,10 +5,54 @@
     "projects": "Projects",
     "contact": "Contact"
   },
+
   "Hero": {
     "title": "Hi, I'm Ania",
-    "subtitle": "Full-Stack Developer bridging the gap between PHP and modern Frontend.",
+    "subtitle": "I build web applications and grow towards software engineering and AI.",
     "cta_work": "See my work",
     "cta_cv": "Download CV"
+  },
+
+  "About": {
+    "title": "About Me",
+    "p1": "I am a self-taught developer focused on software engineering since 2021. My approach centers on deeply understanding the core fundamentals of web development — from frontend UI and backend architecture to deployment workflows.",
+    "p2": "I value minimalism, clean code, and thoughtful user experiences (UX). My goal is to build practical web applications that seamlessly combine robust functionality with elegant design.",
+    "p3": "I constantly expand my skillset through hands-on problem solving and experimentation. In my daily workflow, I effectively leverage AI tools to accelerate prototyping and optimize development processes.",
+
+    "beyond_title": "Beyond Coding",
+
+    "hobby_1": "Sports & Outdoors: running and paddleboarding (SUP)",
+    "hobby_2": "Creative Crafts: interested in drawing, macramé, and crochet",
+    "hobby_3": "Problem Solving: built a strong analytical foundation through C++ and algorithms"
+  },
+
+  "Skills": {
+    "title": "Skills",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "tools": "DevOps & Tools",
+    "learning": "Currently Learning"
+  },
+
+  "Projects": {
+    "title": "Projects",
+
+    "view_code": "Source Code",
+    "live_demo": "Live Demo",
+
+    "savewave_desc": "A personal finance web application built mainly to better understand backend architecture, MVC patterns, and building larger applications from scratch.",
+
+    "savewave_h1": "Custom lightweight MVC framework built in PHP",
+    "savewave_h2": "Dependency Injection and middleware pipeline",
+    "savewave_h3": "Receipt scanning using local Tesseract OCR",
+    "savewave_h4": "User authentication and account management",
+
+    "keeper-app_desc": "A note-taking application created while learning React, backend fundamentals, and deployment workflows.",
+
+    "keeper-app_h1": "Full-stack React application",
+    "keeper-app_h2": "AI note suggestions powered by Gemini API",
+    "keeper-app_h3": "Deployment using Docker, PM2, and Nginx",
+
+    "anavers_desc": "My portfolio website built with Next.js and Tailwind CSS, with multilingual support."
   }
 }
