@@ -1,32 +1,31 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500&family=JetBrains+Mono&display=swap");
 
-@theme {
-  /* Motyw Jasny (Domyślny) */
-  --background: #f8f7f4;
-  --surface: #ffffff;
-  --text-primary: #111111;
-  --text-muted: #6b7280;
-  --border: #e5e7eb;
-  --accent: #8a4ad3;
-  --accent-hover: #b94ad4;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Kiedy dodamy next-themes, klasa .dark aktywuje tryb ciemny */
-.dark {
-  --background: #0f0f0f;
-  --surface: #1a1a1a;
-  --text-primary: #f5f5f5;
-  --text-muted: #9ca3af;
-  --border: #2a2a2a;
-  --accent: #8a4ad3;
-  --accent-hover: #b94ad4;
-}
+@layer base {
+  :root {
+    --background: #f8f7f4;
+    --surface: #ffffff;
+    --text-primary: #111111;
+    --text-muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #8a4ad3;
+    --accent-hover: #b94ad4;
+  }
 
-/* Globalne style bazowe dla wygody */
-body {
-  background-color: var(--background);
-  color: var(--text-primary);
-  transition:
-    background-color 0.3s,
-    color 0.3s;
+  .dark {
+    --background: #0f0f0f;
+    --surface: #1a1a1a;
+    --text-primary: #f5f5f5;
+    --text-muted: #9ca3af;
+    --border: #2a2a2a;
+    --accent: #8a4ad3;
+    --accent-hover: #b94ad4;
+  }
+
+  body {
+    @apply bg-background text-text-primary font-body;
+  }
 }
