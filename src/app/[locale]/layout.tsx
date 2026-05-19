@@ -2,7 +2,24 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/src/lib/routing";
-import "../globals.css"; // ścieżka wyżej, bo jesteśmy teraz w podfolderze [locale]
+import { ThemeProvider } from "next-themes";
+import { Sora, DM_Sans, JetBrains_Mono } from "next/font/google";
+import "../globals.css";
+
+const sora = Sora({
+  subsets: ["latin"],
+  variable: "--font-sora",
+});
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains",
+});
 
 export default async function LocaleLayout({
   children,
@@ -13,20 +30,22 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  // Sprawdź czy dany język jest obsługiwany
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
 
-  // Pobierz wiadomości z pliku JSON dla danego języka
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
-      <body>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+    <html lang={locale} suppressHydrationWarning>
+      <body
+        className={`${sora.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}
+      >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -19,9 +19,9 @@ const config: Config = {
         "accent-hover": "var(--accent-hover)",
       },
       fontFamily: {
-        display: ["Sora", "sans-serif"],
-        body: ["DM Sans", "sans-serif"],
-        mono: ["JetBrains Mono", "monospace"],
+        display: ["var(--font-sora)", "sans-serif"],
+        body: ["var(--font-dm-sans)", "sans-serif"],
+        mono: ["var(--font-jetbrains)", "monospace"],
       },
     },
   },
