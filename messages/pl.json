@@ -62,5 +62,22 @@
     "keeper-app_slide_main": "Interfejs aplikacji z responsywną siatką kafelków notatek, oferujący szybkie dodawanie, edycję oraz usuwanie wpisów w czasie rzeczywistym.",
     "keeper-app_slide_ai": "Integracja z Google Gemini API. Sztuczna inteligencja analizuje treść Twoich notatek i generuje automatyczne, kontekstowe sugestie tytułów lub rozwinięcia myśli.",
     "anavers_slide_home": "Widok główny portfolio z płynnymi przejściami językowymi i pełnym wsparciem dla trybu ciemnego (Dark Mode)."
+  },
+
+  "Contact": {
+    "title": "Kontakt",
+    "subtitle": "Masz pytania lub chcesz podjąć współpracę? Napisz do mnie!",
+    "name": "Imię",
+    "email": "Adres e-mail",
+    "message": "Wiadomość",
+    "placeholder_name": "Twoje imię",
+    "placeholder_email": "twoj.email@przyklad.com",
+    "placeholder_message": "Cześć Ania, piszę w sprawie...",
+    "send": "Wyślij wiadomość",
+    "sending": "Wysyłanie...",
+    "success": "Wiadomość została wysłana pomyślnie!",
+    "error_name": "Imię musi mieć minimum 2 znaki.",
+    "error_email": "Podaj poprawny adres e-mail.",
+    "error_message": "Wiadomość musi mieć minimum 10 znaków."
   }
 }

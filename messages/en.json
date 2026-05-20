@@ -62,5 +62,22 @@
     "keeper-app_slide_main": "Application layout featuring a responsive grid of dynamic notes, enabling fast real-time creation, updates, and deletion.",
     "keeper-app_slide_ai": "Google Gemini API integration. The AI scans existing notes to deliver automatic, contextual suggestions for titles and summaries.",
     "anavers_slide_home": "Main landing screen of the portfolio website, showcasing smooth i18n transitions and dark mode layout styles."
+  },
+
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Have a question or want to work together? Drop me a line!",
+    "name": "Name",
+    "email": "Email Address",
+    "message": "Message",
+    "placeholder_name": "Your name",
+    "placeholder_email": "your.email@example.com",
+    "placeholder_message": "Hi Ania, I'm reaching out regarding...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error_name": "Name must be at least 2 characters long.",
+    "error_email": "Please enter a valid email address.",
+    "error_message": "Message must be at least 10 characters long."
   }
 }
