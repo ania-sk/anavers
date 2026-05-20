@@ -12,6 +12,12 @@ export interface Project {
   tags: string[];
   githubUrl?: string;
   liveUrl?: string;
+  slides?: ProjectSlide[]; // Nowe pole na galerię w modalu
+}
+
+export interface ProjectSlide {
+  image: string;
+  descKey: string; // Klucz do szczegółowego opisu konkretnego zrzutu ekranu
 }
 
 // 1. Umiejętności z Twojego pliku skills.md
@@ -46,6 +52,13 @@ export const skillsData: Skill[] = [
   { name: "Scalable Web Architecture", category: "learning" },
 ];
 
+export const skillCategories = [
+  { id: "backend", labelKey: "backend", icon: Server },
+  { id: "frontend", labelKey: "frontend", icon: Layout },
+  { id: "tools", labelKey: "tools", icon: Wrench },
+  { id: "learning", labelKey: "learning", icon: Brain },
+];
+
 // 2. Projekty z pliku projects.md (plus anavers.pl)
 export const projectsData: Project[] = [
   {
@@ -54,6 +67,13 @@ export const projectsData: Project[] = [
     slug: "savewave",
     tags: ["PHP", "JavaScript", "MySQL", "Tesseract OCR", "Nginx"],
     githubUrl: "https://github.com/ania-sk/savewave",
+    liveUrl: "https://savewave.anavers.pl",
+
+    slides: [
+      { image: "/projects/savewave-dash.jpg", descKey: "slide_dash" },
+      { image: "/projects/savewave-ocr.jpg", descKey: "slide_ocr" },
+      { image: "/projects/savewave-anal.jpg", descKey: "slide_anal" },
+    ],
   },
   {
     id: "2",
@@ -61,19 +81,18 @@ export const projectsData: Project[] = [
     slug: "keeper-app",
     tags: ["React", "Node.js", "Gemini API", "Docker", "Nginx"],
     githubUrl: "https://github.com/ania-sk/keeper-app",
+    liveUrl: "https://keeper-app.anavers.pl",
+    slides: [
+      { image: "/projects/keeper-main.jpg", descKey: "slide_main" },
+      { image: "/projects/keeper-ai.jpg", descKey: "slide_ai" },
+    ],
   },
   {
     id: "3",
     title: "anavers.pl",
     slug: "anavers",
     tags: ["Next.js 16", "TypeScript", "Tailwind CSS v4", "next-intl"],
-    liveUrl: "https://anavers.pl",
+    githubUrl: "https://github.com/ania-sk/anavers",
+    slides: [{ image: "/projects/anavers-home.jpg", descKey: "slide_home" }],
   },
-];
-
-export const skillCategories = [
-  { id: "backend", labelKey: "backend", icon: Server },
-  { id: "frontend", labelKey: "frontend", icon: Layout },
-  { id: "tools", labelKey: "tools", icon: Wrench },
-  { id: "learning", labelKey: "learning", icon: Brain },
 ];

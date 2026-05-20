@@ -56,14 +56,6 @@ export default function Hero() {
               {t("cta_work")}
               <ArrowDown size={16} />
             </a>
-            <a
-              href="/cv-ania-sk.pdf"
-              download
-              className="inline-flex items-center gap-2 border border-border hover:border-accent text-text-primary hover:text-accent text-sm font-medium px-6 py-3 rounded-lg transition-colors duration-200"
-            >
-              {t("cta_cv")}
-              <FileDown size={16} />
-            </a>
           </motion.div>
         </motion.div>
       </div>

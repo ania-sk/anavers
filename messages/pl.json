@@ -38,8 +38,8 @@
     "title": "Projekty",
 
     "view_code": "Kod źródłowy",
-    "live_demo": "Demo",
-
+    "url": "Odwiedź stronę",
+    "read_more": "Czytaj więcej",
     "savewave_desc": "Aplikacja webowa do zarządzania finansami osobistymi. Projekt powstał głównie po to, żeby lepiej zrozumieć backend, architekturę MVC i budowę większych aplikacji od podstaw.",
 
     "savewave_h1": "Własny lekki framework MVC napisany w PHP",
@@ -53,6 +53,14 @@
     "keeper-app_h2": "Sugestie notatek generowane przez Gemini API",
     "keeper-app_h3": "Deployment przy użyciu Dockera, PM2 i Nginx",
 
-    "anavers_desc": "Moje portfolio stworzone w Next.js i Tailwind CSS z obsługą wielu języków."
+    "anavers_desc": "Moje portfolio stworzone w Next.js i Tailwind CSS z obsługą wielu języków.",
+
+    "close": "Zamknij",
+    "savewave_slide_dash": "Główny pulpit nawigacyjny (Dashboard) przedstawiający podsumowanie aktualnego budżetu, wykresy wydatków oraz ostatnie transakcje.",
+    "savewave_slide_ocr": "Moduł skanowania paragonów. Przetwarzanie odbywa się lokalnie za pomocą Tesseract OCR – przesłane zdjęcie nie opuszcza serwera, co gwarantuje prywatność danych użytkownika.",
+    "savewave_slide_anal": "Szczegółowa analiza wydatków podzielona na kategorie oraz widżet celów oszczędnościowych motywujący do odkładania funduszy.",
+    "keeper-app_slide_main": "Interfejs aplikacji z responsywną siatką kafelków notatek, oferujący szybkie dodawanie, edycję oraz usuwanie wpisów w czasie rzeczywistym.",
+    "keeper-app_slide_ai": "Integracja z Google Gemini API. Sztuczna inteligencja analizuje treść Twoich notatek i generuje automatyczne, kontekstowe sugestie tytułów lub rozwinięcia myśli.",
+    "anavers_slide_home": "Widok główny portfolio z płynnymi przejściami językowymi i pełnym wsparciem dla trybu ciemnego (Dark Mode)."
   }
 }

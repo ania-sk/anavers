@@ -38,8 +38,8 @@
     "title": "Projects",
 
     "view_code": "Source Code",
-    "live_demo": "Live Demo",
-
+    "url": "Visit Site",
+    "read_more": "Read more",
     "savewave_desc": "A personal finance web application built mainly to better understand backend architecture, MVC patterns, and building larger applications from scratch.",
 
     "savewave_h1": "Custom lightweight MVC framework built in PHP",
@@ -53,6 +53,14 @@
     "keeper-app_h2": "AI note suggestions powered by Gemini API",
     "keeper-app_h3": "Deployment using Docker, PM2, and Nginx",
 
-    "anavers_desc": "My portfolio website built with Next.js and Tailwind CSS, with multilingual support."
+    "anavers_desc": "My portfolio website built with Next.js and Tailwind CSS, with multilingual support.",
+
+    "close": "Close",
+    "savewave_slide_dash": "Main dashboard showing user balance overview, interactive expense charts, and a quick summary of recent transactions.",
+    "savewave_slide_ocr": "Receipt scanning module. Images are processed locally via Tesseract OCR – files never leave the server, ensuring complete user privacy.",
+    "savewave_slide_anal": "Advanced expense analytics categorized by type alongside savings goals trackers that motivate user budget discipline.",
+    "keeper-app_slide_main": "Application layout featuring a responsive grid of dynamic notes, enabling fast real-time creation, updates, and deletion.",
+    "keeper-app_slide_ai": "Google Gemini API integration. The AI scans existing notes to deliver automatic, contextual suggestions for titles and summaries.",
+    "anavers_slide_home": "Main landing screen of the portfolio website, showcasing smooth i18n transitions and dark mode layout styles."
   }
 }
