@@ -47,6 +47,12 @@
     "savewave_h3": "Skanowanie paragonów przez lokalny Tesseract OCR",
     "savewave_h4": "Logowanie użytkowników i zarządzanie kontem",
 
+    "savewave_slide_dash": "Główny pulpit nawigacyjny to pierwsze, co widzi użytkownik po zalogowaniu. W głównym punkcie strony znajduje się aktualny bilans wydatków. Poniżej znajduje się sekcja z celami oszczędnościowymi z paskami postępu oraz szybki dostęp do panelu celów. Niżej znajdują się trzy listy ostatnich transakcji przychodów, wydatków oraz składek na cele. Użytkownik z tego miejsca może przejść bezpośrednio do wybranej strony i zobaczyć więcej transakcji. Po lewj stronie znajduje się menu nawigacyjne z dostępem do wszystkich modułów aplikacji oraz szybki dostęp do madali dodawania przychodów oraz wydatków.",
+    "savewave_slide_balance": "Widok Balance to przekrojowa analiza wszystkich przepływów finansowych w jednym miejscu. Trzy interaktywne wykresy kołowe prezentują przychody według źródła, wydatki według kategorii oraz wkłady w cele oszczędnościowe. Poniżej zunifikowana tabela transakcji ze wszystkich modułów aplikacji. Na stronie znajduje się również panel filtru umożliwiający sortowanie transakcji według daty.",
+    "savewave_slide_ocr": "Formularz dodawania wydatku zintegrowany z modułem OCR i systemem limitów kategorii. Tesseract przetwarza paragon lokalnie po stronie serwera, co oznacza, że dane nigdy nie opuszczają aplikacji. W czasie rzeczywistym wyświetlany jest stan limitu ustawiony wcześniej przez użytkownika dla wybranej kategorii: wartość limitu, kwota już wydana oraz pozostały budżet.",
+    "savewave_slide_goals": "Tracker celów oszczędnościowych z widokiem szczegółowym. Każdy cel prezentuje pasek postępu, kwotę zebraną względem celu, pozostałą kwotę oraz termin realizacji. Panel boczny pokazuje historię wpłat i umożliwia dodanie nowej składki bez opuszczania widoku.",
+    "savewave_slide_mvc": "Architektura aplikacji obejmuje własny framework MVC napisany w PHP od podstaw, bez użycia zewnętrznych frameworków. Każde żądanie HTTP przechodzi przez Router, trójstopniowy Middleware Pipeline (uwierzytelnienie sesji, walidacja CSRF, logowanie) i trafia do odpowiedniego Kontrolera. Kontener Dependency Injection z autowiring zarządza zależnościami w całej aplikacji. Moduł Tesseract OCR działa wyłącznie po stronie serwera jako izolowana usługa.",
+
     "keeper-app_desc": "Aplikacja do robienia notatek stworzona podczas nauki Reacta, backendu i deploymentu aplikacji.",
 
     "keeper-app_h1": "Aplikacja full-stack oparta o React",
@@ -56,9 +62,7 @@
     "anavers_desc": "Moje portfolio stworzone w Next.js i Tailwind CSS z obsługą wielu języków.",
 
     "close": "Zamknij",
-    "savewave_slide_dash": "Główny pulpit nawigacyjny (Dashboard) przedstawiający podsumowanie aktualnego budżetu, wykresy wydatków oraz ostatnie transakcje.",
-    "savewave_slide_ocr": "Moduł skanowania paragonów. Przetwarzanie odbywa się lokalnie za pomocą Tesseract OCR – przesłane zdjęcie nie opuszcza serwera, co gwarantuje prywatność danych użytkownika.",
-    "savewave_slide_anal": "Szczegółowa analiza wydatków podzielona na kategorie oraz widżet celów oszczędnościowych motywujący do odkładania funduszy.",
+
     "keeper-app_slide_main": "Interfejs aplikacji z responsywną siatką kafelków notatek, oferujący szybkie dodawanie, edycję oraz usuwanie wpisów w czasie rzeczywistym.",
     "keeper-app_slide_ai": "Integracja z Google Gemini API. Sztuczna inteligencja analizuje treść Twoich notatek i generuje automatyczne, kontekstowe sugestie tytułów lub rozwinięcia myśli.",
     "anavers_slide_home": "Widok główny portfolio z płynnymi przejściami językowymi i pełnym wsparciem dla trybu ciemnego (Dark Mode)."

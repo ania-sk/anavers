@@ -70,9 +70,27 @@ export const projectsData: Project[] = [
     liveUrl: "https://savewave.anavers.pl",
 
     slides: [
-      { image: "/projects/savewave-dash.jpg", descKey: "slide_dash" },
-      { image: "/projects/savewave-ocr.jpg", descKey: "slide_ocr" },
-      { image: "/projects/savewave-anal.jpg", descKey: "slide_anal" },
+      {
+        image: "/projects/savewave-dash.webp",
+        descKey: "slide_dash",
+      },
+      {
+        image: "/projects/savewave-balance.webp",
+        descKey: "slide_balance",
+      },
+      {
+        image: "/projects/savewave-ocr.webp",
+        descKey: "slide_ocr",
+      },
+      {
+        image: "/projects/savewave-goals.webp",
+        descKey: "slide_goals",
+      },
+      {
+        image: "/projects/savewave_mvc_architecture.svg",
+        descKey: "slide_mvc",
+        type: "diagram",
+      },
     ],
   },
   {
@@ -96,3 +114,9 @@ export const projectsData: Project[] = [
     slides: [{ image: "/projects/anavers-home.jpg", descKey: "slide_home" }],
   },
 ];
+
+export interface ProjectSlide {
+  image: string;
+  descKey: string;
+  type?: "screenshot" | "diagram";
+}

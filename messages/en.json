@@ -47,6 +47,12 @@
     "savewave_h3": "Receipt scanning using local Tesseract OCR",
     "savewave_h4": "User authentication and account management",
 
+    "savewave_slide_dash": "The main dashboard is the first thing a user sees after logging in. It features a prominent display of the current balance. Below, a section for savings goals includes progress bars and quick access to the goals panel. Further down, three distinct lists display recent income, expenses, and goal contributions, allowing users to navigate directly to detailed views. The left sidebar provides navigation to all app modules, alongside quick-access buttons for adding new income or expenses.",
+    "savewave_slide_balance": "The Balance view offers a comprehensive analysis of all financial flows in one place. Three interactive donut charts present income by source, expenses by category, and savings goal contributions. Below, a unified transaction table aggregates data from all modules, featuring a filter panel that allows users to sort transactions by date.",
+    "savewave_slide_ocr": "This expense form is integrated with an OCR module and a category limit system. Tesseract processes receipts locally on the server, ensuring data never leaves the application. The system displays real-time budget status for the selected category, including the total limit, amount spent, and remaining budget.",
+    "savewave_slide_goals": "A savings goal tracker with a detailed view. Each goal features a progress bar, current progress against the target, remaining amount, and a deadline. A side panel shows contribution history and enables users to add new payments without leaving the current view.",
+    "savewave_slide_mvc": "The application is built on a custom MVC framework written from scratch in PHP, without external dependencies. Every HTTP request passes through a Router and a three-stage Middleware Pipeline (session authentication, CSRF validation, and logging) before reaching the appropriate Controller. A Dependency Injection container with autowiring manages dependencies across the entire application, while the Tesseract OCR module runs exclusively server-side as an isolated service.",
+
     "keeper-app_desc": "A note-taking application created while learning React, backend fundamentals, and deployment workflows.",
 
     "keeper-app_h1": "Full-stack React application",
@@ -56,9 +62,7 @@
     "anavers_desc": "My portfolio website built with Next.js and Tailwind CSS, with multilingual support.",
 
     "close": "Close",
-    "savewave_slide_dash": "Main dashboard showing user balance overview, interactive expense charts, and a quick summary of recent transactions.",
-    "savewave_slide_ocr": "Receipt scanning module. Images are processed locally via Tesseract OCR – files never leave the server, ensuring complete user privacy.",
-    "savewave_slide_anal": "Advanced expense analytics categorized by type alongside savings goals trackers that motivate user budget discipline.",
+
     "keeper-app_slide_main": "Application layout featuring a responsive grid of dynamic notes, enabling fast real-time creation, updates, and deletion.",
     "keeper-app_slide_ai": "Google Gemini API integration. The AI scans existing notes to deliver automatic, contextual suggestions for titles and summaries.",
     "anavers_slide_home": "Main landing screen of the portfolio website, showcasing smooth i18n transitions and dark mode layout styles."
