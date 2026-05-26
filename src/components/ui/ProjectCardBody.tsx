@@ -28,7 +28,7 @@ export default function ProjectCardBody({
   visitSiteLabel,
 }: ProjectCardBodyProps) {
   return (
-    <div className="p-6 flex flex-col flex-grow justify-between">
+    <div className="p-6 flex flex-col grow justify-between">
       <div className="space-y-3">
         {/* Wiersz z tytułem, ikonami linków i "Czytaj więcej" */}
         <div className="flex items-center justify-between">

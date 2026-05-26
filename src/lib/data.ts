@@ -12,6 +12,7 @@ export interface Project {
   tags: string[];
   githubUrl?: string;
   liveUrl?: string;
+  thumbnail?: string;
   slides?: ProjectSlide[]; // Nowe pole na galerię w modalu
 }
 
@@ -65,6 +66,7 @@ export const projectsData: Project[] = [
     id: "1",
     title: "SaveWave",
     slug: "savewave",
+    thumbnail: "/projects/savewave-thumb.webp",
     tags: ["PHP", "JavaScript", "MySQL", "Tesseract OCR", "Nginx"],
     githubUrl: "https://github.com/ania-sk/savewave",
     liveUrl: "https://savewave.anavers.pl",

@@ -99,7 +99,10 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         className="group bg-surface border border-border rounded-xl overflow-hidden shadow-sm hover:shadow-md hover:border-accent/30 transition-all duration-300 flex flex-col h-full cursor-pointer"
       >
         {/* Górna część: ikona/placeholder graficzny */}
-        <ProjectCardThumbnail title={project.title} />
+        <ProjectCardThumbnail
+          title={project.title}
+          thumbnail={project.thumbnail}
+        />
 
         {/* Dolna część: opis, linki, tagi */}
         <ProjectCardBody
