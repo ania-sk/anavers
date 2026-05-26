@@ -8,22 +8,21 @@
 
   "Hero": {
     "title": "Cześć, jestem Ania",
-    "subtitle": "Tworzę aplikacje webowe i rozwijam się w kierunku software engineeringu oraz AI.",
-    "cta_work": "Zobacz projekty",
-    "cta_cv": "Pobierz CV"
+    "subtitle": "Projektuję i tworzę aplikacje webowe od interfejsów w React i Next.js po backend, deployment i rozwój w kierunku AI oraz software engineeringu",
+    "cta_work": "Zobacz projekty"
   },
 
   "About": {
     "title": "O mnie",
-    "p1": "Jestem samodzielną developerką (self-taught), która od 2021 roku konsekwentnie zgłębia inżynierię oprogramowania. Moje podejście opiera się na pełnym zrozumieniu fundamentów aplikacji webowych – od projektowania interfejsu (UI), przez architekturę backendu, aż po procesy wdrożeniowe (deployment).",
-    "p2": "W swoich projektach stawiam na minimalizm, czystość kodu oraz intuicyjne doświadczenia użytkownika (UX). Dążę do tworzenia produktów, które skutecznie łączą zaawansowaną funkcjonalność z estetycznym wykonaniem.",
-    "p3": "Rozwijam warsztat poprzez praktyczne rozwiązywanie problemów oraz eksperymentowanie z nowymi technologiami. W codziennej pracy i procesie uczenia się efektywnie wykorzystuję narzędzia AI do szybkiego prototypowania i optymalizacji kodu.",
+    "intro": "Tworzę nowoczesne aplikacje webowe z naciskiem na minimalizm, użyteczność i estetyczne doświadczenie użytkownika.",
+    "p1": "Od 2021 roku rozwijam się jako samodzielna deweloperka full-stack. Łączę dopracowany wizualnie frontend z solidnym zapleczem backendowym i konfiguracją własnych serwerów.",
+    "p2": "Uczę się głównie poprzez praktykę, własne projekty i eksperymentowanie z nowymi technologiami. W codziennej pracy wykorzystuję również narzędzia AI do szybszego prototypowania i usprawniania developmentu.",
 
     "beyond_title": "Poza kodem",
 
-    "hobby_1": "Sport i natura: regularnie biegam oraz pływam na SUPie",
-    "hobby_2": "Twórczość manualna: pasjonuje mnie rysunek, makrama oraz szydełkowanie",
-    "hobby_3": "Logiczne myślenie: podstawy problem-solvingu budowałam na algorytmice i języku C++"
+    "hobby_1": "Bieganie, SUP i wszystko, co pomaga złapać balans poza ekranem",
+    "hobby_2": "Lubię kreatywne aktywności jak makrama i szydełkowanie",
+    "hobby_3": "Zanim weszłam we frontend, dużo czasu spędziłam ucząc się algorytmiki i C++"
   },
 
   "Skills": {

@@ -8,22 +8,23 @@
 
   "Hero": {
     "title": "Hi, I'm Ania",
-    "subtitle": "I build web applications and grow towards software engineering and AI.",
-    "cta_work": "See my work",
-    "cta_cv": "Download CV"
+    "subtitle": "I design and build web applications from React and Next.js interfaces to backend architecture, deployment and growing toward AI and software engineering.",
+    "cta_work": "See my work"
   },
 
   "About": {
-    "title": "About Me",
-    "p1": "I am a self-taught developer focused on software engineering since 2021. My approach centers on deeply understanding the core fundamentals of web development — from frontend UI and backend architecture to deployment workflows.",
-    "p2": "I value minimalism, clean code, and thoughtful user experiences (UX). My goal is to build practical web applications that seamlessly combine robust functionality with elegant design.",
-    "p3": "I constantly expand my skillset through hands-on problem solving and experimentation. In my daily workflow, I effectively leverage AI tools to accelerate prototyping and optimize development processes.",
+    "title": "About",
 
-    "beyond_title": "Beyond Coding",
+    "intro": "I build modern web applications focused on minimalism, usability and thoughtful user experiences.",
 
-    "hobby_1": "Sports & Outdoors: running and paddleboarding (SUP)",
-    "hobby_2": "Creative Crafts: interested in drawing, macramé, and crochet",
-    "hobby_3": "Problem Solving: built a strong analytical foundation through C++ and algorithms"
+    "p1": "Since 2021, I’ve been growing as a self-taught full-stack developer. I bridge the gap between polished frontend design, solid backend logic, and server configuration.",
+    "p2": "I learn mostly through hands-on projects, experimenting with new technologies and solving real problems. I also use AI tools in my workflow to prototype faster and improve development efficiency.",
+
+    "beyond_title": "Beyond coding",
+
+    "hobby_1": "Running, SUP and everything that helps me recharge away from the screen",
+    "hobby_2": "I enjoy creative activities like macramé and crocheting",
+    "hobby_3": "Before frontend development, I spent a lot of time learning algorithms and C++"
   },
 
   "Skills": {
