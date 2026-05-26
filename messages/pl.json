@@ -53,19 +53,20 @@
     "savewave_slide_goals": "Tracker celów oszczędnościowych z widokiem szczegółowym. Każdy cel prezentuje pasek postępu, kwotę zebraną względem celu, pozostałą kwotę oraz termin realizacji. Panel boczny pokazuje historię wpłat i umożliwia dodanie nowej składki bez opuszczania widoku.",
     "savewave_slide_mvc": "Architektura aplikacji obejmuje własny framework MVC napisany w PHP od podstaw, bez użycia zewnętrznych frameworków. Każde żądanie HTTP przechodzi przez Router, trójstopniowy Middleware Pipeline (uwierzytelnienie sesji, walidacja CSRF, logowanie) i trafia do odpowiedniego Kontrolera. Kontener Dependency Injection z autowiring zarządza zależnościami w całej aplikacji. Moduł Tesseract OCR działa wyłącznie po stronie serwera jako izolowana usługa.",
 
-    "keeper-app_desc": "Aplikacja do robienia notatek stworzona podczas nauki Reacta, backendu i deploymentu aplikacji.",
+    "keeper-app_desc": "Keeper to aplikacja do tworzenia i organizowania notatek z integracją AI. Projekt został stworzony podczas nauki Reacta, architektury full-stack oraz deploymentu aplikacji przy użyciu Dockera, PM2 i Nginx na serwerze DigitalOcean.",
 
-    "keeper-app_h1": "Aplikacja full-stack oparta o React",
-    "keeper-app_h2": "Sugestie notatek generowane przez Gemini API",
-    "keeper-app_h3": "Deployment przy użyciu Dockera, PM2 i Nginx",
+    "keeper-app_h1": "Full-stackowa aplikacja do zarządzania notatkami",
+    "keeper-app_h2": "Wsparcie AI oparte o Groq",
+    "keeper-app_h3": "Deployment z użyciem Dockera, PM2 i Nginx",
+
+    "keeper-app_slide_dash": "Przejrzysty interfejs z responsywną siatką notatek umożliwiający szybkie tworzenie, edycję oraz organizowanie codziennych informacji i przypomnień.",
+    "keeper-app_slide_ai": "Integracja z Groq AI pozwalająca analizować notatki, generować sugestie, rozwijać pomysły oraz konsultować treść z inteligentnym chatbotem. Każda notatka posiada własny przycisk, który przekazuje jej treść do modelu AI, umożliwiając natychmiastową interakcję i wsparcie w rozwoju pomysłów.",
+    "keeper-app_slide_settings": "Panel ustawień zapewniający kontrolę nad kontem użytkownika, w tym możliwość pobrania danych oraz trwałego usunięcia konta.",
 
     "anavers_desc": "Moje portfolio stworzone w Next.js i Tailwind CSS z obsługą wielu języków.",
+    "anavers_slide_home": "Widok główny portfolio z płynnymi przejściami językowymi i pełnym wsparciem dla trybu ciemnego (Dark Mode).",
 
-    "close": "Zamknij",
-
-    "keeper-app_slide_main": "Interfejs aplikacji z responsywną siatką kafelków notatek, oferujący szybkie dodawanie, edycję oraz usuwanie wpisów w czasie rzeczywistym.",
-    "keeper-app_slide_ai": "Integracja z Google Gemini API. Sztuczna inteligencja analizuje treść Twoich notatek i generuje automatyczne, kontekstowe sugestie tytułów lub rozwinięcia myśli.",
-    "anavers_slide_home": "Widok główny portfolio z płynnymi przejściami językowymi i pełnym wsparciem dla trybu ciemnego (Dark Mode)."
+    "close": "Zamknij"
   },
 
   "Contact": {

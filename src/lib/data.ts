@@ -99,12 +99,14 @@ export const projectsData: Project[] = [
     id: "2",
     title: "Keeper App",
     slug: "keeper-app",
-    tags: ["React", "Node.js", "Gemini API", "Docker", "Nginx"],
+    thumbnail: "/projects/keeper-thumb.webp",
+    tags: ["React", "Node.js", "Groq API", "Docker", "Nginx"],
     githubUrl: "https://github.com/ania-sk/keeper-app",
-    liveUrl: "https://keeper-app.anavers.pl",
+    liveUrl: "https://keeper.anavers.pl",
     slides: [
-      { image: "/projects/keeper-main.jpg", descKey: "slide_main" },
-      { image: "/projects/keeper-ai.jpg", descKey: "slide_ai" },
+      { image: "/projects/keeper-dash.webp", descKey: "slide_dash" },
+      { image: "/projects/keeper-ai.webp", descKey: "slide_ai" },
+      { image: "/projects/keeper-settings.webp", descKey: "slide_settings" },
     ],
   },
   {
