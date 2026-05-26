@@ -62,9 +62,15 @@
     "keeper-app_slide_ai": "Integracja z Groq AI pozwalająca analizować notatki, generować sugestie, rozwijać pomysły oraz konsultować treść z inteligentnym chatbotem. Każda notatka posiada własny przycisk, który przekazuje jej treść do modelu AI, umożliwiając natychmiastową interakcję i wsparcie w rozwoju pomysłów.",
     "keeper-app_slide_settings": "Panel ustawień zapewniający kontrolę nad kontem użytkownika, w tym możliwość pobrania danych oraz trwałego usunięcia konta.",
 
-    "anavers_desc": "Moje portfolio stworzone w Next.js i Tailwind CSS z obsługą wielu języków.",
-    "anavers_slide_home": "Widok główny portfolio z płynnymi przejściami językowymi i pełnym wsparciem dla trybu ciemnego (Dark Mode).",
+    "anavers_desc": "Moje portfolio stworzone w Next.js i Tailwind CSS z obsługą dwóch języków.",
 
+    "anavers_h1": "Dark/light mode bez migotania przy ładowaniu (next-themes)",
+    "anavers_h2": "Pełna internacjonalizacja PL/EN z automatycznym wykrywaniem języka (next-intl)",
+    "anavers_h3": "Animacje wejścia i scrolla przez Framer Motion",
+
+    "anavers_slide_dark": "Strona obsługuje tryb ciemny i jasny. Przełącznik w nawigacji natychmiast zmienia motyw bez przeładowania strony. Dzięki next-themes nie ma efektu 'migotania' przy pierwszym ładowaniu. Strona zawsze ładuje się w preferowanym przez użytkownika motywie.",
+    "anavers_slide_en": "Strona jest w pełni dostępna w języku polskim i angielskim. Przełącznik w nawigacji zmienia język bez przeładowania strony. Tłumaczenia obsługuje biblioteka next-intl, a routing oparty na locale automatycznie wykrywa język przeglądarki użytkownika.",
+    "anavers_slide_modal": "Modal projektu ze szczegółowym opisem, listą highlights i panelem Tech Stack. Galeria screenshotów z nawigacją strzałkami i kropkami-indykatorami. Slajdy mogą zawierać zarówno screenshots jak i diagramy architektoniczne.",
     "close": "Zamknij"
   },
 

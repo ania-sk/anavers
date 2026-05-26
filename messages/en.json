@@ -66,7 +66,13 @@
 
     "anavers_desc": "My portfolio website built with Next.js and Tailwind CSS, with multilingual support.",
 
-    "anavers_slide_home": "Main landing screen of the portfolio website, showcasing smooth i18n transitions and dark mode layout styles.",
+    "anavers_h1": "Flash-free dark/light mode on initial load (next-themes)",
+    "anavers_h2": "Full PL/EN internationalization with automatic language detection (next-intl)",
+    "anavers_h3": "Entry and scroll-triggered animations via Framer Motion",
+
+    "anavers_slide_dark": "The site supports both dark and light mode. The toggle in the navbar switches themes instantly without a page reload. Thanks to next-themes, there is no flash of wrong theme on first load. The site always renders in the user's preferred mode.",
+    "anavers_slide_en": "The site is fully available in Polish and English. The language switcher in the navbar changes the language without a page reload. Translations are handled by next-intl, and locale-based routing automatically detects the user's browser language.",
+    "anavers_slide_modal": "Project modal with detailed description, highlights list, and a Tech Stack panel. Screenshot gallery with arrow navigation and dot indicators. Slides can contain both screenshots and architecture diagrams.",
     "close": "Close"
   },
 

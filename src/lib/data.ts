@@ -113,9 +113,14 @@ export const projectsData: Project[] = [
     id: "3",
     title: "anavers.pl",
     slug: "anavers",
+    thumbnail: "/projects/anavers-thumb.webp",
     tags: ["Next.js 16", "TypeScript", "Tailwind CSS v4", "next-intl"],
     githubUrl: "https://github.com/ania-sk/anavers",
-    slides: [{ image: "/projects/anavers-home.jpg", descKey: "slide_home" }],
+    slides: [
+      { image: "/projects/anavers-dark.webp", descKey: "slide_dark" },
+      { image: "/projects/anavers-en.webp", descKey: "slide_en" },
+      { image: "/projects/anavers-modal.webp", descKey: "slide_modal" },
+    ],
   },
 ];
 
