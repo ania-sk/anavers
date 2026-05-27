@@ -7,6 +7,8 @@ import { Project } from "@/src/lib/data";
 import ProjectCardThumbnail from "./ProjectCardThumbnail";
 import ProjectCardBody from "./ProjectCardBody";
 import ProjectModal from "./ProjectModal";
+import ModalAnimate from "./ModalAnimate";
+import {AnimatePresence} from "framer-motion";
 
 interface ProjectCardProps {
   project: Project;
@@ -117,22 +119,25 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         />
       </div>
 
-      {/* Modal — renderowany warunkowo, "poza" kartą w drzewie React */}
-      {isModalOpen && (
-        <ProjectModal
-          project={project}
-          description={description}
-          highlights={highlights}
-          currentSlide={currentSlide}
-          slideDescription={slideDescription}
-          viewCodeLabel={t("view_code")}
-          visitSiteLabel={t("url")}
-          closeLabel={t("close")}
-          onClose={handleCloseModal}
-          onNextSlide={handleNextSlide}
-          onPrevSlide={handlePrevSlide}
-        />
-      )}
+      <AnimatePresence>      
+        {isModalOpen && (
+          <ModalAnimate isOpen={isModalOpen} onClose={handleCloseModal}>
+            <ProjectModal
+              project={project}
+              description={description}
+              highlights={highlights}
+              currentSlide={currentSlide}
+              slideDescription={slideDescription}
+              viewCodeLabel={t("view_code")}
+              visitSiteLabel={t("url")}
+              closeLabel={t("close")}
+              onClose={handleCloseModal}
+              onNextSlide={handleNextSlide}
+              onPrevSlide={handlePrevSlide}
+            />
+          </ModalAnimate>
+        )}
+      </AnimatePresence>
     </>
   );
 }
