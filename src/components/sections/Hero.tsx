@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { ArrowDown, FileDown } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 export default function Hero() {
   const t = useTranslations("Hero");
