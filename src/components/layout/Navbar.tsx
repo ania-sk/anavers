@@ -44,7 +44,7 @@ export default function Navbar() {
           href="/"
           className="font-display font-bold text-lg tracking-tight text-text-primary hover:text-accent transition-colors"
         >
-          ania.dev
+          Anavers
         </Link>
 
         {/* Desktop nav */}

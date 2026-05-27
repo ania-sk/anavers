@@ -90,5 +90,10 @@
     "error_email": "Podaj poprawny adres e-mail.",
     "error_message": "Wiadomość musi mieć minimum 10 znaków.",
     "send_another": "➔ Wyślij kolejną wiadomość"
+  },
+
+  "Metadata": {
+    "title": "Anavers | Full-stack Developer Portfolio",
+    "description": "A full-stack developer portfolio creating modern web applications using Next.js, React, PHP MVC, and TypeScript. Projects, AI integrations, and automation."
   }
 }
