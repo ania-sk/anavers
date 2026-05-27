@@ -88,6 +88,7 @@
     "success": "Wiadomość została wysłana pomyślnie!",
     "error_name": "Imię musi mieć minimum 2 znaki.",
     "error_email": "Podaj poprawny adres e-mail.",
-    "error_message": "Wiadomość musi mieć minimum 10 znaków."
+    "error_message": "Wiadomość musi mieć minimum 10 znaków.",
+    "send_another": "➔ Wyślij kolejną wiadomość"
   }
 }

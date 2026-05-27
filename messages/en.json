@@ -90,6 +90,7 @@
     "success": "Message sent successfully!",
     "error_name": "Name must be at least 2 characters long.",
     "error_email": "Please enter a valid email address.",
-    "error_message": "Message must be at least 10 characters long."
+    "error_message": "Message must be at least 10 characters long.",
+    "send_another": "➔ Send another message"
   }
 }
